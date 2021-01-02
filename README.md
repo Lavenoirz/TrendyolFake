@@ -1,2 +1,2 @@
-*** TrendyolFake
+***TrendyolFake
 Açıklama
