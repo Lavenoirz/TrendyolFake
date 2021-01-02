@@ -1,0 +1,874 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17020249258E0473001F8B3D /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17020248258E0473001F8B3D /* Network.swift */; };
+		1702024F258E0AB9001F8B3D /* BrandDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1702024E258E0AB9001F8B3D /* BrandDetailScreen.swift */; };
+		17020259258E0B11001F8B3D /* SubcategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17020258258E0B11001F8B3D /* SubcategoryCell.swift */; };
+		1702025E258E0B25001F8B3D /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1702025D258E0B25001F8B3D /* ProductCell.swift */; };
+		17020263258E0E86001F8B3D /* SubCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17020262258E0E86001F8B3D /* SubCategory.swift */; };
+		1702026D258F2848001F8B3D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1702026C258F2848001F8B3D /* Product.swift */; };
+		17020272258F3E69001F8B3D /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17020271258F3E69001F8B3D /* FavoriteCell.swift */; };
+		17020277258F3F24001F8B3D /* FavoriteCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17020276258F3F24001F8B3D /* FavoriteCollectionCell.swift */; };
+		175198F5258DE6FE00A0E3ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175198F4258DE6FE00A0E3ED /* AppDelegate.swift */; };
+		175198F7258DE6FE00A0E3ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175198F6258DE6FE00A0E3ED /* SceneDelegate.swift */; };
+		175198F9258DE6FE00A0E3ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175198F8258DE6FE00A0E3ED /* ViewController.swift */; };
+		175198FC258DE6FE00A0E3ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 175198FA258DE6FE00A0E3ED /* Main.storyboard */; };
+		175198FE258DE70100A0E3ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 175198FD258DE70100A0E3ED /* Assets.xcassets */; };
+		17519901258DE70100A0E3ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 175198FF258DE70100A0E3ED /* LaunchScreen.storyboard */; };
+		1751990C258DE70100A0E3ED /* TrendyolFakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1751990B258DE70100A0E3ED /* TrendyolFakeTests.swift */; };
+		17519917258DE70100A0E3ED /* TrendyolFakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17519916258DE70100A0E3ED /* TrendyolFakeUITests.swift */; };
+		17519930258DE79800A0E3ED /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1751992F258DE79800A0E3ED /* Color.xcassets */; };
+		17519935258DE7C400A0E3ED /* BaseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17519934258DE7C400A0E3ED /* BaseScreen.swift */; };
+		1751993E258DE82A00A0E3ED /* BaseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1751993D258DE82A00A0E3ED /* BaseData.swift */; };
+		17519949258DE9EF00A0E3ED /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17519948258DE9EF00A0E3ED /* MainScreen.swift */; };
+		17519952258DECE700A0E3ED /* BrandCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17519951258DECE700A0E3ED /* BrandCell.swift */; };
+		1751995C258DEDA700A0E3ED /* CellIdentify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1751995B258DEDA700A0E3ED /* CellIdentify.swift */; };
+		17519964258DEDF600A0E3ED /* SegueIdentify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17519963258DEDF600A0E3ED /* SegueIdentify.swift */; };
+		17519969258DEE4000A0E3ED /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17519968258DEE4000A0E3ED /* Brand.swift */; };
+		17A3AA262598998900EB7B7B /* FavoriteTBVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A3AA252598998900EB7B7B /* FavoriteTBVCell.swift */; };
+		17A3AA2E259899C000EB7B7B /* FavoriteScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A3AA2D259899C000EB7B7B /* FavoriteScreen.swift */; };
+		17A3AA352598E43500EB7B7B /* ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A3AA332598E43500EB7B7B /* ActionSheet.swift */; };
+		17A3AA362598E43500EB7B7B /* ActionSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A3AA342598E43500EB7B7B /* ActionSheet.xib */; };
+		3B8D9C79259FE6120004129A /* Basket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8D9C78259FE6120004129A /* Basket.swift */; };
+		3B8D9C8325A00EE00004129A /* PaymentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8D9C8225A00EE00004129A /* PaymentScreen.swift */; };
+		3BD34A96259F253E0066FFD6 /* BasketTBVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD34A95259F253E0066FFD6 /* BasketTBVCell.swift */; };
+		3BD34AA9259F262F0066FFD6 /* BasketScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD34AA8259F262F0066FFD6 /* BasketScreen.swift */; };
+		3BD34ABA259F8AD80066FFD6 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD34AB9259F8AD80066FFD6 /* UIView+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17519908258DE70100A0E3ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 175198E9258DE6FE00A0E3ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 175198F0258DE6FE00A0E3ED;
+			remoteInfo = TrendyolFake;
+		};
+		17519913258DE70100A0E3ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 175198E9258DE6FE00A0E3ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 175198F0258DE6FE00A0E3ED;
+			remoteInfo = TrendyolFake;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17020248258E0473001F8B3D /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		1702024E258E0AB9001F8B3D /* BrandDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandDetailScreen.swift; sourceTree = "<group>"; };
+		17020258258E0B11001F8B3D /* SubcategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubcategoryCell.swift; sourceTree = "<group>"; };
+		1702025D258E0B25001F8B3D /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		17020262258E0E86001F8B3D /* SubCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategory.swift; sourceTree = "<group>"; };
+		1702026C258F2848001F8B3D /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		17020271258F3E69001F8B3D /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
+		17020276258F3F24001F8B3D /* FavoriteCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCollectionCell.swift; sourceTree = "<group>"; };
+		175198F1258DE6FE00A0E3ED /* TrendyolFake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrendyolFake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		175198F4258DE6FE00A0E3ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		175198F6258DE6FE00A0E3ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		175198F8258DE6FE00A0E3ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		175198FB258DE6FE00A0E3ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		175198FD258DE70100A0E3ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17519900258DE70100A0E3ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17519902258DE70100A0E3ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17519907258DE70100A0E3ED /* TrendyolFakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrendyolFakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1751990B258DE70100A0E3ED /* TrendyolFakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendyolFakeTests.swift; sourceTree = "<group>"; };
+		1751990D258DE70100A0E3ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17519912258DE70100A0E3ED /* TrendyolFakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrendyolFakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17519916258DE70100A0E3ED /* TrendyolFakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendyolFakeUITests.swift; sourceTree = "<group>"; };
+		17519918258DE70100A0E3ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1751992F258DE79800A0E3ED /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		17519934258DE7C400A0E3ED /* BaseScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseScreen.swift; sourceTree = "<group>"; };
+		1751993D258DE82A00A0E3ED /* BaseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseData.swift; sourceTree = "<group>"; };
+		17519948258DE9EF00A0E3ED /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		17519951258DECE700A0E3ED /* BrandCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandCell.swift; sourceTree = "<group>"; };
+		1751995B258DEDA700A0E3ED /* CellIdentify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellIdentify.swift; sourceTree = "<group>"; };
+		17519963258DEDF600A0E3ED /* SegueIdentify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueIdentify.swift; sourceTree = "<group>"; };
+		17519968258DEE4000A0E3ED /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		17A3AA252598998900EB7B7B /* FavoriteTBVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTBVCell.swift; sourceTree = "<group>"; };
+		17A3AA2D259899C000EB7B7B /* FavoriteScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteScreen.swift; sourceTree = "<group>"; };
+		17A3AA332598E43500EB7B7B /* ActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet.swift; sourceTree = "<group>"; };
+		17A3AA342598E43500EB7B7B /* ActionSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActionSheet.xib; sourceTree = "<group>"; };
+		3B8D9C78259FE6120004129A /* Basket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basket.swift; sourceTree = "<group>"; };
+		3B8D9C8225A00EE00004129A /* PaymentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentScreen.swift; sourceTree = "<group>"; };
+		3BD34A95259F253E0066FFD6 /* BasketTBVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketTBVCell.swift; sourceTree = "<group>"; };
+		3BD34AA8259F262F0066FFD6 /* BasketScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketScreen.swift; sourceTree = "<group>"; };
+		3BD34AB9259F8AD80066FFD6 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		175198EE258DE6FE00A0E3ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17519904258DE70100A0E3ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1751990F258DE70100A0E3ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1702024D258E0A90001F8B3D /* BrandDetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				17020256258E0AF1001F8B3D /* Cell */,
+				1702024E258E0AB9001F8B3D /* BrandDetailScreen.swift */,
+			);
+			path = BrandDetailScreen;
+			sourceTree = "<group>";
+		};
+		17020256258E0AF1001F8B3D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				17020258258E0B11001F8B3D /* SubcategoryCell.swift */,
+				1702025D258E0B25001F8B3D /* ProductCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		175198E8258DE6FE00A0E3ED = {
+			isa = PBXGroup;
+			children = (
+				175198F3258DE6FE00A0E3ED /* TrendyolFake */,
+				1751990A258DE70100A0E3ED /* TrendyolFakeTests */,
+				17519915258DE70100A0E3ED /* TrendyolFakeUITests */,
+				175198F2258DE6FE00A0E3ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		175198F2258DE6FE00A0E3ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				175198F1258DE6FE00A0E3ED /* TrendyolFake.app */,
+				17519907258DE70100A0E3ED /* TrendyolFakeTests.xctest */,
+				17519912258DE70100A0E3ED /* TrendyolFakeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		175198F3258DE6FE00A0E3ED /* TrendyolFake */ = {
+			isa = PBXGroup;
+			children = (
+				1751993C258DE81800A0E3ED /* Network */,
+				1751992E258DE75F00A0E3ED /* App */,
+				1751992D258DE74F00A0E3ED /* Asset */,
+				1751992C258DE73700A0E3ED /* Screen */,
+				1751992B258DE72F00A0E3ED /* Extension */,
+				1751992A258DE72600A0E3ED /* CustomObject */,
+				17519929258DE72100A0E3ED /* Util */,
+				17519928258DE71800A0E3ED /* Model */,
+				17519927258DE71100A0E3ED /* Base */,
+				175198F8258DE6FE00A0E3ED /* ViewController.swift */,
+				17519902258DE70100A0E3ED /* Info.plist */,
+				175198FA258DE6FE00A0E3ED /* Main.storyboard */,
+			);
+			path = TrendyolFake;
+			sourceTree = "<group>";
+		};
+		1751990A258DE70100A0E3ED /* TrendyolFakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1751990B258DE70100A0E3ED /* TrendyolFakeTests.swift */,
+				1751990D258DE70100A0E3ED /* Info.plist */,
+			);
+			path = TrendyolFakeTests;
+			sourceTree = "<group>";
+		};
+		17519915258DE70100A0E3ED /* TrendyolFakeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17519916258DE70100A0E3ED /* TrendyolFakeUITests.swift */,
+				17519918258DE70100A0E3ED /* Info.plist */,
+			);
+			path = TrendyolFakeUITests;
+			sourceTree = "<group>";
+		};
+		17519927258DE71100A0E3ED /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				17519934258DE7C400A0E3ED /* BaseScreen.swift */,
+				1751993D258DE82A00A0E3ED /* BaseData.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		17519928258DE71800A0E3ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1751995A258DED8E00A0E3ED /* Common */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		17519929258DE72100A0E3ED /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				175198FF258DE70100A0E3ED /* LaunchScreen.storyboard */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		1751992A258DE72600A0E3ED /* CustomObject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomObject;
+			sourceTree = "<group>";
+		};
+		1751992B258DE72F00A0E3ED /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3BD34AB9259F8AD80066FFD6 /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1751992C258DE73700A0E3ED /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				17519946258DE9A400A0E3ED /* Modul */,
+				17519945258DE97A00A0E3ED /* Common */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		1751992D258DE74F00A0E3ED /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				175198FD258DE70100A0E3ED /* Assets.xcassets */,
+				1751992F258DE79800A0E3ED /* Color.xcassets */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
+		1751992E258DE75F00A0E3ED /* App */ = {
+			isa = PBXGroup;
+			children = (
+				175198F4258DE6FE00A0E3ED /* AppDelegate.swift */,
+				175198F6258DE6FE00A0E3ED /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1751993C258DE81800A0E3ED /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				17020248258E0473001F8B3D /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		17519945258DE97A00A0E3ED /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		17519946258DE9A400A0E3ED /* Modul */ = {
+			isa = PBXGroup;
+			children = (
+				3B8D9C8125A00ECA0004129A /* PaymentScreen */,
+				3BD34A93259F25020066FFD6 /* BasketScreen */,
+				17A3AA322598E40A00EB7B7B /* ActionSheet */,
+				17A3AA232598995300EB7B7B /* FavoriteScreen */,
+				1702024D258E0A90001F8B3D /* BrandDetailScreen */,
+				17519947258DE9D000A0E3ED /* MainScreen */,
+			);
+			path = Modul;
+			sourceTree = "<group>";
+		};
+		17519947258DE9D000A0E3ED /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				17519950258DECCF00A0E3ED /* Cell */,
+				17519948258DE9EF00A0E3ED /* MainScreen.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		17519950258DECCF00A0E3ED /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				17519951258DECE700A0E3ED /* BrandCell.swift */,
+				17020271258F3E69001F8B3D /* FavoriteCell.swift */,
+				17020276258F3F24001F8B3D /* FavoriteCollectionCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		1751995A258DED8E00A0E3ED /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1751995B258DEDA700A0E3ED /* CellIdentify.swift */,
+				17519963258DEDF600A0E3ED /* SegueIdentify.swift */,
+				17519968258DEE4000A0E3ED /* Brand.swift */,
+				17020262258E0E86001F8B3D /* SubCategory.swift */,
+				1702026C258F2848001F8B3D /* Product.swift */,
+				3B8D9C78259FE6120004129A /* Basket.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		17A3AA232598995300EB7B7B /* FavoriteScreen */ = {
+			isa = PBXGroup;
+			children = (
+				17A3AA242598996A00EB7B7B /* Cell */,
+				17A3AA2D259899C000EB7B7B /* FavoriteScreen.swift */,
+			);
+			path = FavoriteScreen;
+			sourceTree = "<group>";
+		};
+		17A3AA242598996A00EB7B7B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				17A3AA252598998900EB7B7B /* FavoriteTBVCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		17A3AA322598E40A00EB7B7B /* ActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				17A3AA332598E43500EB7B7B /* ActionSheet.swift */,
+				17A3AA342598E43500EB7B7B /* ActionSheet.xib */,
+			);
+			path = ActionSheet;
+			sourceTree = "<group>";
+		};
+		3B8D9C8125A00ECA0004129A /* PaymentScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3B8D9C8225A00EE00004129A /* PaymentScreen.swift */,
+			);
+			path = PaymentScreen;
+			sourceTree = "<group>";
+		};
+		3BD34A93259F25020066FFD6 /* BasketScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3BD34A94259F25090066FFD6 /* Cell */,
+				3BD34AA8259F262F0066FFD6 /* BasketScreen.swift */,
+			);
+			path = BasketScreen;
+			sourceTree = "<group>";
+		};
+		3BD34A94259F25090066FFD6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3BD34A95259F253E0066FFD6 /* BasketTBVCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		175198F0258DE6FE00A0E3ED /* TrendyolFake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1751991B258DE70100A0E3ED /* Build configuration list for PBXNativeTarget "TrendyolFake" */;
+			buildPhases = (
+				175198ED258DE6FE00A0E3ED /* Sources */,
+				175198EE258DE6FE00A0E3ED /* Frameworks */,
+				175198EF258DE6FE00A0E3ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrendyolFake;
+			productName = TrendyolFake;
+			productReference = 175198F1258DE6FE00A0E3ED /* TrendyolFake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17519906258DE70100A0E3ED /* TrendyolFakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1751991E258DE70100A0E3ED /* Build configuration list for PBXNativeTarget "TrendyolFakeTests" */;
+			buildPhases = (
+				17519903258DE70100A0E3ED /* Sources */,
+				17519904258DE70100A0E3ED /* Frameworks */,
+				17519905258DE70100A0E3ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17519909258DE70100A0E3ED /* PBXTargetDependency */,
+			);
+			name = TrendyolFakeTests;
+			productName = TrendyolFakeTests;
+			productReference = 17519907258DE70100A0E3ED /* TrendyolFakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17519911258DE70100A0E3ED /* TrendyolFakeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17519921258DE70100A0E3ED /* Build configuration list for PBXNativeTarget "TrendyolFakeUITests" */;
+			buildPhases = (
+				1751990E258DE70100A0E3ED /* Sources */,
+				1751990F258DE70100A0E3ED /* Frameworks */,
+				17519910258DE70100A0E3ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17519914258DE70100A0E3ED /* PBXTargetDependency */,
+			);
+			name = TrendyolFakeUITests;
+			productName = TrendyolFakeUITests;
+			productReference = 17519912258DE70100A0E3ED /* TrendyolFakeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		175198E9258DE6FE00A0E3ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					175198F0258DE6FE00A0E3ED = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					17519906258DE70100A0E3ED = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 175198F0258DE6FE00A0E3ED;
+					};
+					17519911258DE70100A0E3ED = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 175198F0258DE6FE00A0E3ED;
+					};
+				};
+			};
+			buildConfigurationList = 175198EC258DE6FE00A0E3ED /* Build configuration list for PBXProject "TrendyolFake" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 175198E8258DE6FE00A0E3ED;
+			productRefGroup = 175198F2258DE6FE00A0E3ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				175198F0258DE6FE00A0E3ED /* TrendyolFake */,
+				17519906258DE70100A0E3ED /* TrendyolFakeTests */,
+				17519911258DE70100A0E3ED /* TrendyolFakeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		175198EF258DE6FE00A0E3ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17519901258DE70100A0E3ED /* LaunchScreen.storyboard in Resources */,
+				17519930258DE79800A0E3ED /* Color.xcassets in Resources */,
+				175198FE258DE70100A0E3ED /* Assets.xcassets in Resources */,
+				17A3AA362598E43500EB7B7B /* ActionSheet.xib in Resources */,
+				175198FC258DE6FE00A0E3ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17519905258DE70100A0E3ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17519910258DE70100A0E3ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		175198ED258DE6FE00A0E3ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1702024F258E0AB9001F8B3D /* BrandDetailScreen.swift in Sources */,
+				17519949258DE9EF00A0E3ED /* MainScreen.swift in Sources */,
+				17519964258DEDF600A0E3ED /* SegueIdentify.swift in Sources */,
+				1751995C258DEDA700A0E3ED /* CellIdentify.swift in Sources */,
+				1702026D258F2848001F8B3D /* Product.swift in Sources */,
+				17519969258DEE4000A0E3ED /* Brand.swift in Sources */,
+				1702025E258E0B25001F8B3D /* ProductCell.swift in Sources */,
+				175198F9258DE6FE00A0E3ED /* ViewController.swift in Sources */,
+				17020263258E0E86001F8B3D /* SubCategory.swift in Sources */,
+				3B8D9C79259FE6120004129A /* Basket.swift in Sources */,
+				17020249258E0473001F8B3D /* Network.swift in Sources */,
+				17A3AA352598E43500EB7B7B /* ActionSheet.swift in Sources */,
+				175198F5258DE6FE00A0E3ED /* AppDelegate.swift in Sources */,
+				17A3AA262598998900EB7B7B /* FavoriteTBVCell.swift in Sources */,
+				17519935258DE7C400A0E3ED /* BaseScreen.swift in Sources */,
+				17020259258E0B11001F8B3D /* SubcategoryCell.swift in Sources */,
+				17020277258F3F24001F8B3D /* FavoriteCollectionCell.swift in Sources */,
+				1751993E258DE82A00A0E3ED /* BaseData.swift in Sources */,
+				17020272258F3E69001F8B3D /* FavoriteCell.swift in Sources */,
+				3BD34ABA259F8AD80066FFD6 /* UIView+Extension.swift in Sources */,
+				17A3AA2E259899C000EB7B7B /* FavoriteScreen.swift in Sources */,
+				3BD34A96259F253E0066FFD6 /* BasketTBVCell.swift in Sources */,
+				17519952258DECE700A0E3ED /* BrandCell.swift in Sources */,
+				175198F7258DE6FE00A0E3ED /* SceneDelegate.swift in Sources */,
+				3B8D9C8325A00EE00004129A /* PaymentScreen.swift in Sources */,
+				3BD34AA9259F262F0066FFD6 /* BasketScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17519903258DE70100A0E3ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1751990C258DE70100A0E3ED /* TrendyolFakeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1751990E258DE70100A0E3ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17519917258DE70100A0E3ED /* TrendyolFakeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17519909258DE70100A0E3ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 175198F0258DE6FE00A0E3ED /* TrendyolFake */;
+			targetProxy = 17519908258DE70100A0E3ED /* PBXContainerItemProxy */;
+		};
+		17519914258DE70100A0E3ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 175198F0258DE6FE00A0E3ED /* TrendyolFake */;
+			targetProxy = 17519913258DE70100A0E3ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		175198FA258DE6FE00A0E3ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				175198FB258DE6FE00A0E3ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		175198FF258DE70100A0E3ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17519900258DE70100A0E3ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17519919258DE70100A0E3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1751991A258DE70100A0E3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1751991C258DE70100A0E3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5C3TJ5NZY;
+				INFOPLIST_FILE = TrendyolFake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deneme.TrendyolFake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1751991D258DE70100A0E3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5C3TJ5NZY;
+				INFOPLIST_FILE = TrendyolFake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deneme.TrendyolFake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1751991F258DE70100A0E3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5C3TJ5NZY;
+				INFOPLIST_FILE = TrendyolFakeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deneme.TrendyolFakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrendyolFake.app/TrendyolFake";
+			};
+			name = Debug;
+		};
+		17519920258DE70100A0E3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5C3TJ5NZY;
+				INFOPLIST_FILE = TrendyolFakeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deneme.TrendyolFakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrendyolFake.app/TrendyolFake";
+			};
+			name = Release;
+		};
+		17519922258DE70100A0E3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5C3TJ5NZY;
+				INFOPLIST_FILE = TrendyolFakeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deneme.TrendyolFakeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrendyolFake;
+			};
+			name = Debug;
+		};
+		17519923258DE70100A0E3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5C3TJ5NZY;
+				INFOPLIST_FILE = TrendyolFakeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deneme.TrendyolFakeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrendyolFake;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		175198EC258DE6FE00A0E3ED /* Build configuration list for PBXProject "TrendyolFake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17519919258DE70100A0E3ED /* Debug */,
+				1751991A258DE70100A0E3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1751991B258DE70100A0E3ED /* Build configuration list for PBXNativeTarget "TrendyolFake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1751991C258DE70100A0E3ED /* Debug */,
+				1751991D258DE70100A0E3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1751991E258DE70100A0E3ED /* Build configuration list for PBXNativeTarget "TrendyolFakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1751991F258DE70100A0E3ED /* Debug */,
+				17519920258DE70100A0E3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17519921258DE70100A0E3ED /* Build configuration list for PBXNativeTarget "TrendyolFakeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17519922258DE70100A0E3ED /* Debug */,
+				17519923258DE70100A0E3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 175198E9258DE6FE00A0E3ED /* Project object */;
+}
